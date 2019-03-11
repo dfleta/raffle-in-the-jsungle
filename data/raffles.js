@@ -1,4 +1,12 @@
 
+var shoe = {
+    "model": "Sacai x Nike LDV Waffle",
+    "colour": "Varsity Blue/Del Sol/Varsity Red",
+    "code": "BV0073-400",
+    "avaliable": "07/03/19",
+    "price": "180$"
+};
+
 var raffles = {
 
     "Antonia Milano": {
@@ -66,4 +74,7 @@ var raffles = {
 
 };
 
-exports.raffles = raffles;
+exports.raffles = {
+    "sole": shoe,
+    "raffles": raffles
+};
