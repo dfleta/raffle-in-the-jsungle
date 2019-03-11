@@ -81,7 +81,7 @@ var raffles = {
 
 };
 
-exports.raffles = {
-    "sole": shoe,
+exports.sole = {
+    "shoe": shoe,
     "raffles": raffles
 };
