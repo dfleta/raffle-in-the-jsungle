@@ -10,6 +10,7 @@ var shoe = {
 var raffles = {
 
     "Antonia Milano": {
+        "logo": "https://www.soleretriever.com/wp-content/uploads/2018/04/AntoniaMilano.jpg",
         "country": "Italy",
         "purchase": "Online Raffle",
         "collection": "Postage Available",
@@ -20,6 +21,7 @@ var raffles = {
     },
 
     "END": {
+        "logo": "https://www.soleretriever.com/wp-content/uploads/2018/04/End.jpg",
         "country": "UK",
         "purchase": "Online Raffle",
         "collection": "Postage Available",
@@ -30,6 +32,7 @@ var raffles = {
     },
 
     "Foot Patrol": {
+        "logo": "https://www.soleretriever.com/wp-content/uploads/2018/04/FootPatrol.png",
         "country": "France",
         "purchase": "Online Raffle",
         "collection": "Collection Only",
@@ -40,6 +43,7 @@ var raffles = {
     },
 
     "Holypop": {
+        "logo": "https://www.soleretriever.com/wp-content/uploads/2018/04/HolyPop.png",
         "country": "Italy",
         "purchase": "Online FCFS",
         "collection": "Postage Available",
@@ -50,6 +54,7 @@ var raffles = {
     },
 
     "Offspring": {
+        "logo": "https://www.soleretriever.com/wp-content/uploads/2018/04/OffSpring.jpg",
         "country": "UK",
         "purchase": "Online Raffle",
         "collection": "Collection Only",
@@ -60,6 +65,7 @@ var raffles = {
     },
 
     "SNS": {
+        "logo": "https://www.soleretriever.com/wp-content/uploads/2018/04/SNS.jpg",
         "country": "Swe, UK, Ger, Fr",
         "purchase": "Online Raffle",
         "collection": "Post and Collect",
@@ -70,6 +76,7 @@ var raffles = {
     },
 
     "Solebox": {
+        "logo": "https://www.soleretriever.com/wp-content/uploads/2018/04/SoleBox.jpg'git",
         "country": "Germany",
         "purchase": "In-Store/Online",
         "collection": "Post and Collect",

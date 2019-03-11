@@ -68,9 +68,6 @@ Los datos ser obtienen del fichero `data.js`, del objeto `raffles`.
 
 - El **nombre de la tienda está en negrita**
 
-
-Puedes obtener las urls de los logos de las tiendas mediante el inspector del navegador.
-
 Intenta que la disposición de las rifas sea lo más parecida a la de la app original. Puedes usar un flex-box o la ñapa que se te ocurra para salir del paso. **No pierdas mucho tiempo en esto**.
 
 
