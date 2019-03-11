@@ -1,10 +1,15 @@
-Rick-encuentros en la Rick fase
-===============================
-#### Examen DWEC Dual Diciembre 2018
+Raffle in the JSungle
+=====================
+#### Examen JS client-side DWEC Dual Febrero 2019
 
-Rick y Morty se mueven entre distintas dimensiones disparando una pistola de portales mientras son perseguidos por clones de sí mismos.
+Jerry es un aficionado a coleccionar zapatillas de edición limitada. Para ello, ha de aplicar a las rifas que organizan las distintas tiendas de zapas.
 
-Jerry conoce a Dofous-Rick, que es una mezcla entre él mismo y Rick.
+Rifas hay muchas, y si introduce los datos por duplicado, lo descalifican.
+
+Por ello, Jerry utiliza una sencilla app en el navegador donde señala si ha participado ya en dicha rifa o no.
+
+
+
 
 
 ## Instrucciones
@@ -21,38 +26,32 @@ Jerry conoce a Dofous-Rick, que es una mezcla entre él mismo y Rick.
 
 ## Programa principal y casos test
 
-El _script_ principal `main.js` está compuesto por los test que de cada clase /función se proponen.
+El _script_ principal `main.js` está compuesto por el código necesario para completar las historias de usuario.
 
-En cada una de las secciones del `main.js` escribe el código necesario para pasar los casos test de dicha sección. Este código invocará a los módulos con las funciones que necesites.
+Si sabes cómo hacerlo, este código invocará a los módulos con las funciones que necesites, de modo que al final has de generar un `bundle.js` que consuma el navegador. Puedes utilizar la herramienta que prefieras. Con `browserify` (y `npm`) es fácil. 
+
+Se proporciona un módulo llamado `data.js` que exporta un objeto JS en notación `JSON` con los datos de la zapatilla y sus rifas. Simula el envío de datos por parte del servidor web.
+
+Abrevia los casos test: hazlos mediante interacción con el usuario, comprobando la gestión adecuada de los eventos. También puedes completarlos leyendo el estado del  `localStorage`.
 
 
 # Historias de usuario
 
+## Visualizar las rifas
 
-## Personajes
+- Al cargar la página, se observan las rifas. Significa que el `data.js` con el `JSON` ha sido parseado.
+- Un **botón verde** con el texto **ENTER RAFFLE** indica las que están aun abiertas.
+- Un **botón rojo** con el texto **CLOSED** indica las que ya han cerrado.
+- Un **botón gris** con el texto **ANNOUNCED** indica que aun no se han abierto.
 
-### Rick
+El color de los botones se programa mediante lógica JS.
 
-- Crea al objeto **Rick** de la Tierra, el prototipo de todos los demás. 
-- Tiene un identificador `id` con valor `C-137` 
-- Tiene `altas` frecuencias cerebrales. 
-- Cuando `habla` dice `"Es Rick-dículo!"`.
-- `dispara` la pistola de portales o `portal gun`.
-- Es el `prototipo` del resto de Ricks.
-- Asegúrate de que es único.
+## Indicar la participación
 
-### Morty
-
-- Crea al objeto **Morty**. 
-- Tiene un `id` con valor `"earthMorty"`. 
-- Emite `bajas` frecuencias cerebrales.
-- Cuando `habla` dice `"Oohh man!"`.
-- Su _partner_ (compañero) es el Rick de la Tierra. 
-- Es el `prototipo` del resto de Morties.
-- Asegúrate de que es único.
+- Cuando 
 
 
-### Jerry
+## Filtro por criterio de búsqueda
 
 - Crea al objeto **Jerry**. 
 - Tiene un `id` con el valor `"Jerry"`. 

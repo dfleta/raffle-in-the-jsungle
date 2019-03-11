@@ -15,7 +15,8 @@ var raffles = {
         "collection": "Postage Available",
         "Sizes": "4 to 12 US",
         "Opens": "live",
-        "Closes": "06/03 @ 11AM CET"
+        "Closes": "06/03 @ 11AM CET",
+        "url": "https://www.antonia.it/164-shoes"
     },
 
     "END": {
@@ -24,7 +25,8 @@ var raffles = {
         "collection": "Postage Available",
         "Sizes": "5 to 12 UK",
         "Opens": "live",
-        "Closes": "07/03 @ 12AM GMT"
+        "Closes": "07/03 @ 12AM GMT",
+        "url": "https://launches.endclothing.com/"
     },
 
     "Foot Patrol": {
@@ -33,7 +35,8 @@ var raffles = {
         "collection": "Collection Only",
         "Sizes": "36.5 to 47.5 EU",
         "Opens": "live",
-        "Closes": "04/02 @ 10AM CET"
+        "Closes": "04/02 @ 10AM CET",
+        "url": "https://www.footpatrol.com/customer-service/raffle-fr/"
     },
 
     "Holypop": {
@@ -42,7 +45,8 @@ var raffles = {
         "collection": "Postage Available",
         "Sizes": "TBC",
         "Opens": "announced",
-        "Closes": "07/02 @ 12AM CET"
+        "Closes": "07/02 @ 12AM CET",
+        "url": "https://www.holypopstore.com/en/footwear"
     },
 
     "Offspring": {
@@ -51,7 +55,8 @@ var raffles = {
         "collection": "Collection Only",
         "Sizes": "3.5 to 7 UK",
         "Opens": "live",
-        "Closes": "closed"
+        "Closes": "closed",
+        "url": "https://www.offspring.co.uk/release-dates"
     },
 
     "SNS": {
@@ -60,7 +65,8 @@ var raffles = {
         "collection": "Post and Collect",
         "Sizes": "4 to 13 US",
         "Opens": "live",
-        "Closes": "06/03 @ 11AM CET"
+        "Closes": "06/03 @ 11AM CET",
+        "url": "https://www.sneakersnstuff.com/en/937/sns-raffles"
     },
 
     "Solebox": {
@@ -69,7 +75,8 @@ var raffles = {
         "collection": "Post and Collect",
         "Sizes": "41 to 46 EU",
         "Opens": "announced",
-        "Closes": "When sold out"
+        "Closes": "When sold out",
+        "url": "https://www.solebox.com/en/Footwear/"
     },
 
 };
