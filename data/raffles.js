@@ -1,5 +1,6 @@
 
 var shoe = {
+    "image": "https://media.soleretriever.com/68f61325-ae7f-4019-85c3-7ce9fe9186b3.jpeg",
     "model": "Jordan 6 Retro Hare",
     "colorway": "Neutral Grey/White-True Red-Black",
     "PID": "CT9529-062",
