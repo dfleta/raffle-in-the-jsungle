@@ -1,89 +1,89 @@
 
 var shoe = {
-    "model": "Sacai x Nike LDV Waffle",
-    "colour": "Varsity Blue/Del Sol/Varsity Red",
-    "code": "BV0073-400",
-    "avaliable": "07/03/19",
-    "price": "180$"
+    "model": "Jordan 6 Retro Hare",
+    "colorway": "Neutral Grey/White-True Red-Black",
+    "PID": "CT9529-062",
+    "release": "Jun 17 2020",
+    "retail": "190$"
 };
 
 var raffles = {
 
-    "Antonia Milano": {
-        "logo": "https://www.soleretriever.com/wp-content/uploads/2018/04/AntoniaMilano.jpg",
+    "One Block Down": {
+        "logo": "https://media.soleretriever.com/9de207d0-e6aa-4578-8e01-71d71aee9df1.jpg",
         "country": "Italy",
-        "purchase": "Online Raffle",
-        "collection": "Postage Available",
+        "Type": "Online",
+        "Retrieval": "Shipping",
         "Sizes": "4 to 12 US",
         "Opens": "live",
-        "Closes": "06/03 @ 11AM CET",
-        "url": "https://www.antonia.it/164-shoes"
+        "Closes": "01/07 @ 11AM CET",
+        "url": "https://row.oneblockdown.it"
     },
 
     "END": {
-        "logo": "https://www.soleretriever.com/wp-content/uploads/2018/04/End.jpg",
+        "logo": "https://media.soleretriever.com/095baf4d-f41b-415c-9a24-84c083277526.png",
         "country": "UK",
-        "purchase": "Online Raffle",
-        "collection": "Postage Available",
+        "Type": "Online",
+        "Retrieval": "Shipping",
         "Sizes": "5 to 12 UK",
         "Opens": "live",
-        "Closes": "07/03 @ 12AM GMT",
+        "Closes": "07/07 @ 12AM GMT",
         "url": "https://launches.endclothing.com/"
     },
 
-    "Foot Patrol": {
-        "logo": "https://www.soleretriever.com/wp-content/uploads/2018/04/FootPatrol.png",
-        "country": "France",
-        "purchase": "Online Raffle",
-        "collection": "Collection Only",
+    "BSTN": {
+        "logo": "https://media.soleretriever.com/0d727440-df87-46c8-815f-e8782fdd015d.png",
+        "country": "Germany",
+        "Type": "Online",
+        "Retrieval": "Shipping",
         "Sizes": "36.5 to 47.5 EU",
         "Opens": "live",
-        "Closes": "04/02 @ 10AM CET",
-        "url": "https://www.footpatrol.com/customer-service/raffle-fr/"
+        "Closes": "04/07 @ 10AM CET",
+        "url": "https://www.bstn.com/"
     },
 
-    "Holypop": {
-        "logo": "https://www.soleretriever.com/wp-content/uploads/2018/04/HolyPop.png",
+    "BackDoor": {
+        "logo": "https://media.soleretriever.com/dca27131-ee4d-40c0-bf0e-ecb667251020.png",
         "country": "Italy",
-        "purchase": "Online FCFS",
-        "collection": "Postage Available",
+        "Type": "Social",
+        "Retrieval": "Pick-up",
         "Sizes": "TBC",
-        "Opens": "announced",
-        "Closes": "07/02 @ 12AM CET",
-        "url": "https://www.holypopstore.com/en/footwear"
+        "Opens": "live",
+        "Closes": "06/07 @ 12AM CET",
+        "url": "https://back-door.it/"
     },
 
-    "Offspring": {
-        "logo": "https://www.soleretriever.com/wp-content/uploads/2018/04/OffSpring.jpg",
+    "Hanon": {
+        "logo": "https://media.soleretriever.com/6dc206ae-bda9-4eec-910c-64185849dcf0.jpg",
         "country": "UK",
-        "purchase": "Online Raffle",
-        "collection": "Collection Only",
+        "Type": "Online",
+        "Retrieval": "Pick-up, Shipping",
         "Sizes": "3.5 to 7 UK",
         "Opens": "live",
         "Closes": "closed",
-        "url": "https://www.offspring.co.uk/release-dates"
+        "url": "https://launches.hanon-shop.com"
     },
 
     "SNS": {
-        "logo": "https://www.soleretriever.com/wp-content/uploads/2018/04/SNS.jpg",
-        "country": "Swe, UK, Ger, Fr",
-        "purchase": "Online Raffle",
-        "collection": "Post and Collect",
+        "logo": "https://media.soleretriever.com/a4dfe890-6499-4f7f-8dab-576f16b922c7.png",
+        "country": "Sweeden, UK, Germany, France",
+        "Type": "In App",
+        "Retrieval": "Shipping",
         "Sizes": "4 to 13 US",
         "Opens": "live",
         "Closes": "06/03 @ 11AM CET",
-        "url": "https://www.sneakersnstuff.com/en/937/sns-raffles"
+        "url": "https://www.sneakersnstuff.com"
     },
 
-    "Solebox": {
-        "logo": "https://www.soleretriever.com/wp-content/uploads/2018/04/SoleBox.jpg",
+    "Soto Berlin": {
+        "logo": "https://media.soleretriever.com/c9afc4a8-3258-47de-a5c8-1a815e25bb2f.png",
         "country": "Germany",
-        "purchase": "In-Store/Online",
-        "collection": "Post and Collect",
+        "Type": "Social",
+        "Retrieval": "Pick-up",
         "Sizes": "41 to 46 EU",
-        "Opens": "announced",
+        "Opens": "live",
         "Closes": "When sold out",
-        "url": "https://www.solebox.com/en/Footwear/"
+        "url": "https://www.sotostore.com/"
     },
 
 };
