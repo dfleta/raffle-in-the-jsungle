@@ -1,6 +1,6 @@
 Raffle in the JSungle
 =====================
-#### Examen JS client-side DWEC Dual Febrero 2019
+#### Examen JS client-side DWEC Dual Junio 2020
 
 Jerry es un aficionado a coleccionar _sneakers_ de edición limitada. Para ello, ha de aplicar a las rifas que organizan las distintas tiendas de zapas.
 
@@ -79,7 +79,7 @@ Intenta que la disposición de las rifas sea lo más parecida a la de la app ori
 - Al hacer **clic sobre el nombre y descripción de la tienda o del botón Open Raffle**, se abre una nueva pestaña del navegador con la página de la `url` indicada en el `data.js`
 - Al situar el puntero del ratón encima de calquiera de estos tres botones (sin clic), el comportamiento es como el que muestra la app real (el botón cambia de color). Intenta simularlo. No es necesario que sea idéntico.
 
-## Indicar la participación
+## Indica la participación
 
 - Cuando Jerry, por su cuenta, participa en la rifa, hace clic sobre el botón `Mark done`. El **texto del componente cambia** a `Entered` y el relleno del botón cambia a gris. Al hacer clic de nuevo, cambia al texto y color original `Mark done`. Puedes obtener el icono directamente de la página original haciendo uso del inspector del navegador.
 
